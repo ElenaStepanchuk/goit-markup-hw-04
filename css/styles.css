@@ -3,6 +3,7 @@
     --accent-color: #2196F3;
     --title-color: #212121;
     --about-us-card-gap: 30px;
+    --icon-fill: #757575;
 }
 body {
     color: #757575;
@@ -109,14 +110,19 @@ padding-bottom: 32px;
     display: flex;
     align-items: center;
 }
-.header-adress .list:not(:last-child) {
-    margin-right: 50px;
-    margin-left: 331px;
-} 
+.header-adress-list {
+    display: flex;
+    
+}
+/* .header-adress .list:not(:last-child) {
+    margin-right: 30px;
+    margin-left: 305px;
+}  */
 
-a[href="mailto:info@devstudio.com"],
-a[href="tel:+380961111111"]
-{
+.header-adress-link{
+    display: flex;
+    justify-content: flex-end;
+    
     color:#757575;
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -124,12 +130,23 @@ a[href="tel:+380961111111"]
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.header-adress a:hover,
-.header-adress a:focus
+.header-adress-link:hover,
+.header-adress-link:focus
 {
     color:var(--accent-color);
 }
-
+.mail-footer{
+    height: 12px;
+    width: 16px;
+    fill:var(--icon-fill);
+   
+}
+.tel-footer{
+    height: 16px;
+    width: 10px;
+    fill:var(--icon-fill);
+    margin-left: 10px;
+}
 /* =======================hero======================= */
 .hero {
     padding-top: 200px;
@@ -138,8 +155,13 @@ a[href="tel:+380961111111"]
     background-color: rgba(47, 48, 58, 0.4);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/hero/hero-background.jpg);
     background-repeat: no-repeat;
+
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px;
+    max-width: 1600px;
     background-position: center;
-    background-size: 1600px 600px;
+    background-size: cover;
 }
 
 .hero-name {
