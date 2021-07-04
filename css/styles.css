@@ -60,7 +60,6 @@ ol {
     display: flex;
     align-items: center;
 }
-
 /* log */
 .log-web {
     color:var(--accent-color);
@@ -74,7 +73,6 @@ ol {
 .log-studio {
     color: #000000;    
 }
-
 /* nav */
 .nav {
     display: flex;
@@ -89,7 +87,6 @@ display: flex;
 padding-top: 32px;
 padding-bottom: 32px;
 } 
-
 .header-nav .list:not(:last-child) {
     margin-right: 50px;
 }
@@ -112,13 +109,11 @@ padding-bottom: 32px;
 }
 .header-adress-list {
     display: flex;
-    
 }
 /* .header-adress .list:not(:last-child) {
     margin-right: 30px;
     margin-left: 305px;
 }  */
-
 .header-adress-link{
     display: flex;
     justify-content: flex-end;
