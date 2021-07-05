@@ -59,7 +59,8 @@ ol {
 .header-container {
     display: flex;
     align-items: center;
-}
+} 
+
 /* log */
 .log-web {
     color:var(--accent-color);
@@ -106,24 +107,25 @@ padding-bottom: 32px;
 .header-adress {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
+
 .header-adress-list {
     display: flex;
 }
-/* .header-adress .list:not(:last-child) {
-    margin-right: 30px;
-    margin-left: 305px;
-}  */
 .header-adress-link{
     display: flex;
-    justify-content: flex-end;
-    
+
+        
     color:#757575;
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+.header-adress-list:not(:last-child) {
+    margin-right: 30px;
 }
 .header-adress-link:hover,
 .header-adress-link:focus
@@ -134,14 +136,24 @@ padding-bottom: 32px;
     height: 12px;
     width: 16px;
     fill:var(--icon-fill);
+    margin-right: 10px;
    
 }
 .tel-footer{
     height: 16px;
     width: 10px;
     fill:var(--icon-fill);
-    margin-left: 10px;
+    margin-right: 10px;
+   
 }
+.mail-footer:hover,
+.mail-footer:focus {
+    fill:var(--accent-color);
+} 
+.tel-footer:hover,
+.tel-footer:focus {
+    fill:var(--accent-color);
+} 
 /* =======================hero======================= */
 .hero {
     padding-top: 200px;
