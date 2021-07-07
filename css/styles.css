@@ -346,6 +346,7 @@ padding-bottom: 32px;
     align-items: center;
 }
 .bacground-social-networks {
+    display: flex;
     justify-content: space-around;
 }
 .instagram,
@@ -354,14 +355,14 @@ padding-bottom: 32px;
 .linkedin {
     height: 20px;
     width: 20px;
-    fill: #afb1b8; 
-        
 }
 .icon-background{
     width: 44px;
     height: 44px;
     padding: 12px;
     border-radius: 50%;
+    align-items: center;
+    fill: #afb1b8;;
 }
 .bacground-social-networks:not(:last-child) {
     margin-right: 10px;
@@ -374,6 +375,7 @@ padding-bottom: 32px;
     background-color: #2196F3;
     border-radius: 50%;
     fill: white;
+    
 }
 
 /* regular clients */
@@ -494,8 +496,11 @@ padding-bottom: 32px;
 }
 .footer-list-social-networks {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footer-bacground-social-networks {
+    display: flex;
     justify-content: space-around;
 }
 
