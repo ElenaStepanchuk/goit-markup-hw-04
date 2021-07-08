@@ -400,8 +400,8 @@ letter-spacing: 0.02em;
 }
 .regular-clients {
     display: flex;
-    width: 106px;
-    height: 60px;
+    width: 170px;
+    height: 92px;
     align-items: center;
     justify-content: center;
     
@@ -410,9 +410,10 @@ letter-spacing: 0.02em;
     width: 106px;
     height: 60px;
     fill: #afb1b8;
+    
 }
 
-.regular-clients-list:hover {
+.regular-clients:hover {
     
     border-top: 1px solid #2196F3;
     border-right: 1px solid #2196F3;
@@ -422,8 +423,8 @@ letter-spacing: 0.02em;
     fill: #2196F3;
 
 }
-.regular-clients-list:hover .regular-clients-logo,
-.regular-clients-list:focus .regular-clients-logo {
+.regular-clients:hover .regular-clients-logo,
+.regular-clients:focus .regular-clients-logo {
     fill: #2196F3;
 }
 
