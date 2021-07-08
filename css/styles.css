@@ -142,28 +142,14 @@ letter-spacing: 0.02em;
 .header-adress-link:focus
 {
     color:var(--accent-color);
-    fill: var(--accent-color);
 } 
-.mail-footer:hover,
-.mail-footer:focus {
+.header-adress-link:hover .mail-footer,
+.header-adress-link:focus .mail-footer,
+.header-adress-link:hover .tel-footer,
+.header-adress-link:focus .tel-footer
+{
     fill:var(--accent-color);
-    
-} 
-.tel-footer:hover,
-.tel-footer:focus {
-    fill:var(--accent-color);
-    color:var(--accent-color);
-}  
-/* .icon-tel-footer:hover,
-.icon-tel-footer:focus {
-    fill:var(--accent-color);
-    color:var(--accent-color);
 }
-.header-adress-list:hover,
-.header-adress-list:focus {
-    fill:var(--accent-color);
-    color:var(--accent-color);
-} */
 /* =======================hero======================= */
 .hero {
     padding-top: 200px;
@@ -277,11 +263,10 @@ letter-spacing: 0.02em;
 .our-ocupation-list {
     display: flex;
     margin-right: -30px;
-    margin-left: -30px;
+    
 }
 .our-ocupation-list .list {
     margin-right: 30px;
-    margin-left: 30px;
     margin-bottom: 31px;
     flex-basis: calc((100% - 90px) / 3);
 }
@@ -586,6 +571,7 @@ letter-spacing: 0.02em;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08),
     0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    color: white;
 }
 
 /* fhoto list */
